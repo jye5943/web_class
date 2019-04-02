@@ -29,6 +29,20 @@ app.get('/write', function(req, res){
 app.get('/table', function(req, res){
     res.sendfile("table.html");
 });
+
 app.get('/style', function(req, res){
     res.sendfile("style.html");
+
+});
+
+app.get('/0402_idpassword', function(req, res){
+    res.sendfile("0402_idpassword.html");
+});
+
+app.get('/0402_double', function(req, res){
+    res.sendfile("0402_double(곱하기).html");
+});
+
+app.get('/login', function(req, res){
+    res.sendfile("login.html");
 });
